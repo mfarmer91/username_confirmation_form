@@ -1,0 +1,45 @@
+/************************
+ERROR MESSAGES
+*************************/
+
+.error{
+    display: inline-block;
+    font-family: 'Roboto';
+    font-size: 0.8em;
+    width: 50%;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    color: rgb(220,220,220);
+    padding: 2px;
+}
+
+/************************
+INPUT
+*************************/
+
+#userName,
+#userConfirmation {
+    display: inline-block;
+    margin: 15px;
+}
+
+
+/************************
+USER PASSWORD
+*************************/
+
+
+
+/************************
+USER NAME
+*************************/
+
+
+/************************
+BUTTON
+*************************/
+
+button {
+    margin-left: 15px;
+    display: block;
+}
