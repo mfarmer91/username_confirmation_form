@@ -2,7 +2,7 @@ var $form = $("<form action='index.html' method='post'></form>");
 var $fieldset = $("<fieldset></fieldset>");
 var $username_input =  $("<input type='text' id='userName' name='user_name'>");
 var $username_confirmation_input =  $("<input type='text' id='userConfirmation' name='user_confirmation'>");
-var $button = $("<button type='submit'>Submit, fool.</button>");
+var $button = $("<button type='submit' class='btn btn-default'>Submit, fool.</button>");
 var $username_error = ("<span id='username_error' class='error'>Sorry, your username must be 8 characters or more.</span>");
 var $username_confirmation_error = ("<span id='username_confirmation_error' class='error'>Sorry, your usernames don't match.</span>");
     

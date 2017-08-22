@@ -6,7 +6,7 @@ ERROR MESSAGES
     display: inline-block;
     font-family: 'Roboto';
     font-size: 0.8em;
-    width: 50%;
+    width: auto;
     background-color: rgba(0, 0, 0, .5);
     border-radius: 5px;
     color: rgb(220,220,220);
@@ -24,16 +24,15 @@ INPUT
 }
 
 
-/************************
-USER PASSWORD
-*************************/
-
 
 
 /************************
 USER NAME
 *************************/
 
+input {
+    border: 1px solid grey;
+}
 
 /************************
 BUTTON
@@ -41,5 +40,22 @@ BUTTON
 
 button {
     margin-left: 15px;
-    display: block;
+    display: inline-block;
+}
+
+
+/************************
+FIELDSET
+*************************/
+
+fieldset {
+    border: 0;
+}
+
+/************************
+FOOTER
+*************************/
+
+footer {
+    margin-left: 1.5%;
 }
